@@ -1,6 +1,9 @@
 # pgnToOpeningBook
 
 A simple tool to convert any number of .pgn chess game files into an easy to use opening book for a chess engine.
+The format outputted is the same as a javascript object, a python dict and a C++ map. It will be in a text file.
+
+You can copy and paste the book into your code and your engine will now have a simple opening book.
 
 Time Complexity is O(n)
 
