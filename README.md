@@ -10,8 +10,14 @@ For Example:
 ```g++ pgnToOpeningBook.cpp -o pgnBook```
 
 2. Run the compiled program
-```pgnBook MyMatches2019.pgn MyMatches2020.pgn```
+```pgnBook <file1> <file2> ... <fileN>```
 
 3. Wait
 
 4. Opening Book will appear as `openingBook.txt` in the same directory as the executable.
+
+# Credit
+
+I used a *slightly* modified version of the THC Chess Library. https://github.com/billforsternz/thc-chess-library
+Thank you.
+
