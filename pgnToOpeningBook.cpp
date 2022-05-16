@@ -114,10 +114,10 @@ int main(int argc, char* argv[]){
     for(auto it = openingBook.begin(); it != openingBook.end(); it++){
         ofile << "    \"" << it->first << "\" : [";
         for(int i = 0; i < it->second.size()-1; i++){
-            ofile << it->second[i] << ", ";
+            ofile << "\"" << it->second[i] << "\", ";
         }
 
-        ofile << it->second[it->second.size()-1] << "]";
+        ofile << "\"" << it->second[it->second.size()-1] << "\"]";
 
         if(it != secondLast){
             ofile << ",";
